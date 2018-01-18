@@ -9,28 +9,31 @@ Total Orders.
 
 Dataset
 ==============================
-This project will use the dataset available [here](https://archive.ics.uci.edu/ml/datasets/Daily+Demand+Forecasting+Orders#)
+This project will use the dataset available [here](https://archive.ics.uci.edu/ml/datasets/Air+Quality)
 
-This dataset is semi-colon delimited and has
-* 60 observations
-* 12 independent variables
-* 1 dependent variable
+This dataset is semi-colon delimited and uses European , decimal point.  It has has
+* 9472 observations
+* 1 independent variables
+* 14 dependent variable
+* Uses -200 for missing values
 
 Columns
 ------------------------------
-* Week of the month (first week, second, third, fourth or fifth week
-* Day of the week (Monday to Friday)
-* Non-urgent order
-* Urgent order
-* Order type A
-* Order type B
-* Order type C
-* Fiscal sector orders
-* Orders from the traffic controller sector
-* Banking orders (1)
-* Banking orders (2)
-* Banking orders (3)
-* Target (Total orders)
+0 Date	(DD/MM/YYYY) 
+1 Time	(HH.MM.SS) 
+2 True hourly averaged concentration CO in mg/m^3 (reference analyzer) 
+3 PT08.S1 (tin oxide) hourly averaged sensor response (nominally CO targeted)	
+4 True hourly averaged overall Non Metanic HydroCarbons concentration in microg/m^3 (reference analyzer) 
+5 True hourly averaged Benzene concentration in microg/m^3 (reference analyzer) 
+6 PT08.S2 (titania) hourly averaged sensor response (nominally NMHC targeted)	
+7 True hourly averaged NOx concentration in ppb (reference analyzer) 
+8 PT08.S3 (tungsten oxide) hourly averaged sensor response (nominally NOx targeted) 
+9 True hourly averaged NO2 concentration in microg/m^3 (reference analyzer)	
+10 PT08.S4 (tungsten oxide) hourly averaged sensor response (nominally NO2 targeted)	
+11 PT08.S5 (indium oxide) hourly averaged sensor response (nominally O3 targeted) 
+12 Temperature in Â°C	
+13 Relative Humidity (%) 
+14 AH Absolute Humidity 
 
 Code
 ==============================
