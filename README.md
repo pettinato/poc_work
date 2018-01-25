@@ -15,3 +15,4 @@ Each POC should be appended below for reference.
 
 Current POCs
 ==============================
+ARIMA - A first pass at doing ARIMA modeling with `stats_models` module.
