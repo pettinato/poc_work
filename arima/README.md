@@ -35,10 +35,16 @@ Columns
 13 Relative Humidity (%) 
 14 AH Absolute Humidity 
 
-Code
-==============================
-TBD
 
 Analysis Performed
-------------------------------
-TBD
+==============================
+This notebook does a simple timeseries analysis of a single time series.  
+It's not production level work, but just a look into basic analysis and modeling using 
+`statsmodels`.
+
+Future Work
+==============================
+There are other time series modules worth looking into including,
+1. [PyFlux](http://www.pyflux.com/)
+2. [Prophet](https://facebook.github.io/prophet/)
+3. [tsfresh](https://github.com/blue-yonder/tsfresh)
