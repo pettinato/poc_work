@@ -29,3 +29,5 @@ Future Work
 ==============================
 I'm confused on how to do bulk top 10 per user and had to do 1 function call for every 
 pair of user and movie.
+
+Look at using cosine and other similarity metrics built into surprise.
