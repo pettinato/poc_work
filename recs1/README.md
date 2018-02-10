@@ -22,7 +22,10 @@ Columns
 
 Analysis Performed
 ==============================
-
+Built a recommender using `surprise` including looking at grid search and predicting to 10
+recommendations for a user.
 
 Future Work
 ==============================
+I'm confused on how to do bulk top 10 per user and had to do 1 function call for every 
+pair of user and movie.
