@@ -9,24 +9,18 @@ for building and selecting models.
 Dataset
 ==============================
 
-This project will use the `ratings.csv` dataset available 
-[here](https://www.kaggle.com/rounakbanik/the-movies-dataset/data)
+This project will use the `aps_failure_training_set.csv` dataset available 
+[here](https://archive.ics.uci.edu/ml/machine-learning-databases/00421/)
 
-This dataset is comma delimited.  It has has 26024289 observations.
-
-Columns
-------------------------------
-* userId
-* movieId
-* rating
-* timestamp
+This dataset is comma delimited.  It has a ton of rows and columns but for the POC the number
+of features has been limited.
 
 Analysis Performed
 ==============================
-Built a recommender using `surprise` including looking at grid search and predicting to 10
-recommendations for a user.
+Built sklearn pipelines including looking at grid search and 
+looping through a few models to choose the best one..
 
 Future Work
 ==============================
-I'm confused on how to do bulk top 10 per user and had to do 1 function call for every 
-pair of user and movie.
+Custom transformations instead of just using the built in sklearn transformations.
+
