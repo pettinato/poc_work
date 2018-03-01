@@ -15,4 +15,6 @@ Each POC should be appended below for reference.
 
 Current POCs
 ==============================
-ARIMA - A first pass at doing ARIMA modeling with `stats_models` module.
+* ARIMA - A first pass at doing ARIMA modeling with `stats_models` module.
+* Recs1 - A look into the Python module surprise for generating recommendations.
+* Pipeline - Deeper dive into sklearn pipelines for model construction.
